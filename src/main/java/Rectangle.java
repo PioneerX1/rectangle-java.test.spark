@@ -16,6 +16,13 @@ public class Rectangle {
   }
 
   public boolean isSquare() {
+    if (mLength == mWidth) {
     return true;
+  } else { return false; }
   }
+
+  public int area() {
+    return mLength * mWidth;
+  }
+
 }
